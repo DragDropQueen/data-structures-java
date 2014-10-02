@@ -5,14 +5,14 @@ import java.util.*;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class myQueue<E> extends AbstractQueue<E>{
-    private List<E> internalArray = new LinkedList<E>();
+    private List<E> internalArray;
 
     public boolean run() {
         return true;
     }
 
-    public List myQueue() {
-        return internalArray;
+    public myQueue() {
+        internalArray = new LinkedList<E>();
     }
 
     public boolean enqueue(E e) {

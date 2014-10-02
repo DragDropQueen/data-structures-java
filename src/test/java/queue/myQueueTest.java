@@ -13,7 +13,7 @@ public class myQueueTest {
 
     @Before
     public void MakeMyQueueClass() {
-        testQueue = new myQueue<Integer>();
+        testQueue = new myQueue<>();
     }
 
     @Test
