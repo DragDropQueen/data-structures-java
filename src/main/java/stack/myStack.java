@@ -18,5 +18,20 @@ public class myStack<E> {
         return internalList.toString();
     }
 
+    boolean push(E item) {
+        return internalList.add(item);
+    }
+
+    boolean isEmpty() {
+        if (view().equals("[]")) {
+            return true;
+        }
+
+        return false;
+    }
+
+    int size() {
+        return internalList.toArray().length;
+    }
 
 }
