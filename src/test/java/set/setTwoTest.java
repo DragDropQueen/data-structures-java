@@ -8,6 +8,7 @@ import static org.junit.Assert.*;
 /**
  * Created by savannah on 11/10/14.
  */
+
 public class setTwoTest {
     setTwo set;
 
